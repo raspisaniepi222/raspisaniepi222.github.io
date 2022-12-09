@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+    font-size:16px;
+    line-height: normal;
+    color:#FFFACD;
+    background-color:#696969;
+    font-family:cursive;
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.zagolovok{
+    padding-bottom: 4%;
+}
+
+h1 {
+    padding: 0;
+    margin-top: 5vh;
+    margin-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: solid 2px hsl(240, 93%, 65%);
+}
+
+
+.raspisnie *{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top:3%;
+}
+
+.raspisanie ul,
+.raspisanie ol{
+    list-style: none;
+}
+
+.raspisnie > ul{
+    justify-content: center;
+}
+
+
+.raspisanie > ul li {
+    display: block;
+    background: #ececed;
+    padding: 15px 38px 15px 40px;   
+    font-size: 16px;
+    color:#454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease; 
+
+}
+
+.raspisanie > ul li{
+    position: relative;
+    border: 1px solid #b2b3b5;
+}
+
+.raspisanie li:hover{
+    background: #454547;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease; 
+}
+
+.raspisanie li ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+}
+
+.raspisanie li > ul li{
+    border: 1px solid #c7c8ca;
+}
+
+.raspisanie li > ul li{
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+
+}
+
+.raspisanie li:hover > ul{
+    display: block;
+    z-index: 99999999;
+}
+
