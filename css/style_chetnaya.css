@@ -119,16 +119,16 @@ div .text1 {
 
 }
 
-label{
+/*label{
 text-align: center;
 margin-right: auto;
 margin-left: auto;
 padding-right: auto;
 padding-left: auto;
-}
+}*/
 
 
 label> div{
-  min-width: 90%;
+/*  min-width: 90%;*/
   padding: 0px 30px 0px 30px;
 }
