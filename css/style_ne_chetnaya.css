@@ -9,6 +9,8 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
+    padding-right: 7%;
+    padding-left: 7%;
 
     flex-direction: column;
     align-items: center;
@@ -114,5 +116,5 @@ input[type="checkbox"]:checked ~ .text5 {
 
 div .text1 {
     width: 100%;
-    
+
 }
