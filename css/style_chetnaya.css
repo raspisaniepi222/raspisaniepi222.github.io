@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-size:16px;
+    font-size:14px;
     line-height: normal;
     color:#FFFACD;
     background-color:#696969;
@@ -29,12 +29,12 @@ h1 {
     overflow: hidden;
     border-bottom: solid 2px hsl(240, 93%, 65%);
 }
-.text,
+.text1,
 input[type="checkbox"] {
   display: none;
 }
 
-input[type="checkbox"]:checked ~ .text {
+input[type="checkbox"]:checked ~ .text1 {
   display: block;
 }
 
@@ -44,7 +44,6 @@ input[type="checkbox"]:checked ~ .text {
   margin-bottom: 4px;
   padding: 4px 8px;
   background-color:#696969;
-  border-bottom:solid 2px hsl(240, 93%, 65%);
   cursor: pointer;
 }
 table{
@@ -75,3 +74,41 @@ a {
     color:#FFFACD;
     text-decoration:none;
 }
+
+
+.text2,
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .text2 {
+  display: block;
+}
+
+.text3,
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .text3 {
+  display: block;
+}
+
+.text4,
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .text4 {
+  display: block;
+}
+
+.text5,
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .text5 {
+  display: block;
+}
+

@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-size:16px;
+    font-size:14px;
     line-height: normal;
     color:#FFFACD;
     background-color:#696969;
@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 300px;
+    margin-bottom: 70px;
 }
 
 .zagolovok{
@@ -29,70 +29,90 @@ h1 {
     overflow: hidden;
     border-bottom: solid 2px hsl(240, 93%, 65%);
 }
+.text1,
+input[type="checkbox"] {
+  display: none;
+}
 
+input[type="checkbox"]:checked ~ .text1 {
+  display: block;
+}
 
-.raspisnie *{
-    margin: 0;
+/* Стилизация псевдокнопки */
+.btn {
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 4px 8px;
+  background-color:#696969;
+  cursor: pointer;
+}
+table{
+    text-align: center;
+    font-size:16px;
+    line-height: normal;
+    color:#FFFACD;
+    background-color:#696969;
+    font-family:cursive;
+    border:solid 1px hsl(240, 93%, 65%);
+}
+
+td{
+    margin: 0px;
+    padding: 0px;
+    border:solid 1px hsl(240, 93%, 65%);
+}
+
+a {
+    text-align: center;
     padding: 0;
-}
-
-header {
-    margin-top:3%;
-}
-
-.raspisanie ul,
-.raspisanie ol{
-    list-style: none;
-}
-
-.raspisnie > ul{
-    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border-bottom: solid 2px hsl(240, 93%, 65%);
+    color:#FFFACD;
+    text-decoration:none;
 }
 
 
-.raspisanie > ul li {
-    display: block;
-    background: #ececed;
-    padding: 15px 38px 15px 40px;   
-    font-size: 16px;
-    color:#454547;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 0.3s ease; 
-
+.text2,
+input[type="checkbox"] {
+  display: none;
 }
 
-.raspisanie > ul li{
-    position: relative;
-    border: 1px solid #b2b3b5;
+input[type="checkbox"]:checked ~ .text2 {
+  display: block;
 }
 
-.raspisanie li:hover{
-    background: #454547;
-    color: #ffffff;
-    box-shadow: 1px 5px 10px -5px black;
-    transition: all 0.3s ease; 
+.text3,
+input[type="checkbox"] {
+  display: none;
 }
 
-.raspisanie li ul{
-    position: absolute;
-    min-width: 150px;
-    display: none;
+input[type="checkbox"]:checked ~ .text3 {
+  display: block;
 }
 
-.raspisanie li > ul li{
-    border: 1px solid #c7c8ca;
+.text4,
+input[type="checkbox"] {
+  display: none;
 }
 
-.raspisanie li > ul li{
-    padding: 10px;
-    text-transform: none;
-    background: #e4e4e5;
-
+input[type="checkbox"]:checked ~ .text4 {
+  display: block;
 }
 
-.raspisanie li:hover > ul{
-    display: block;
-    z-index: 99999999;
+.text5,
+input[type="checkbox"] {
+  display: none;
 }
 
+input[type="checkbox"]:checked ~ .text5 {
+  display: block;
+}
+
+div .text1 {
+    width: 100%;
+    
+}
