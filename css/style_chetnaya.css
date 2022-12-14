@@ -121,10 +121,10 @@ div .text1 {
 
 label{
   padding: 0px 30px 0px 30px;
-  width: 90%;
+  min-width: 90%;
 }
 
 label> div{
-  width: 90%;
+  min-width: 90%;
   padding: 0px 30px 0px 30px;
 }
