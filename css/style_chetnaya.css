@@ -114,10 +114,7 @@ input[type="checkbox"]:checked ~ .text5 {
   display: block;
 }
 
-div .text1 {
-    width: 100%;
 
-}
 
 /*label{
 text-align: center;
@@ -128,6 +125,6 @@ padding-left: auto;
 }*/
 
 
-label > div {
-  margin: 0px 20px 0px 70px;
+label> div {
+  margin: 0px 20px 0px 60px;
 }
